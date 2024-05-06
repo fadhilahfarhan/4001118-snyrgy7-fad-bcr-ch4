@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Sabrina" />
+    <meta name="description" content="Lorem ipsum dolor sit amet" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"
+    />
+    <title>Binar: Challenge 04</title>
+
+    <!-- Example CSS -->
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo"></div>
+        <div class="navigation">
+          <ul>
+            <li><a href="##">Our Service</a></li>
+            <li><a href="##">Why Us</a></li>
+            <li><a href="##">Testimonial</a></li>
+            <li><a href="##">FAQ</a></li>
+            <li><a href="##">Register</a></li>
+          </ul>
+        </div>
+        <img class="menu-icon" src="./assets/icons/menu.svg" alt="menu-icon" />
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-wraper">
+          <div class="hero-description">
+            <h1>Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
+            <p>
+              Selamat datang di Binar Car Rental. Kami menyediakan mobil
+              kualitas terbaik dengan harga terjangkau. Selalu siap melayani
+              kebutuhanmu untuk sewa mobil selama 24 jam.
+            </p>
+          </div>
+          <div class="hero-image">
+            <div class="image-wraper">
+              <img src="./assets/image/img_car.png" alt="car-hero" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="filter-search">
+        <div class="filter-container">
+        <div class="filter-form">
+          <div class="input-filter">
+            <label for="driverType">Tipe Driver</label>
+            <select id="driverType" class="input">
+              <option value="1">Dengan Sopir</option>
+              <option value="0">Tanpa Sopir</option>
+            </select>
+          </div>
+          <div class="input-filter">
+            <label for="date">Tanggal</label>
+            <input type="date" id="date" class="input" />
+          </div>
+          <div class="input-filter">
+            <label for="pickupTime">Waktu Jemput/Ambil</label>
+            <select id="pickupTime" class="input">
+              <option value="" selected>Pilih Jam</option>
+              <option value="8">08.00</option>
+              <option value="9">09.00</option>
+              <option value="10">10.00</option>
+              <option value="11">11.00</option>
+              <option value="12">12.00</option>
+            </select>
+          </div>
+          <div class="input-filter">
+            <label for="passengerCount">Jumlah Penumpang</label>
+            <input type="number" id="passengerCount" class="input" />
+          </div>
+          <button id="load-btn" >Cari Mobil</button>
+        </div>
+      </div>
+        <div class="cars-container" id="cars-container">
+        </div>
+      </section>
+
+      <button id="clear-btn"></button>
+    </main>
+    <footer>
+      <div class="footer-wraper">
+        <div class="address">
+          <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+          <p>binarcarrental@gmail.com</p>
+          <p>081-233-334-808</p>
+        </div>
+        <div class="navigation-footer">
+          <a href="##">Our Service</a>
+          <a href="##">Why Us</a>
+          <a href="##">Testimonial</a>
+          <a href="##">FAQ</a>
+        </div>
+        <div class="contact">
+          <p>Connect with us</p>
+          <div class="contact-icon">
+            <img src="./assets/icons/facebook.svg" alt="fb" />
+            <img src="./assets/icons/instagram.svg" alt="ig" />
+            <img src="./assets/icons/twitter.svg" alt="x" />
+            <img src="./assets/icons/mail.svg" alt="mail" />
+            <img src="./assets/icons/twitch.svg" alt="twitch" />
+          </div>
+        </div>
+        <div class="copy-right">
+          <p>Copyright Binar 2022</p>
+          <div class="logo"></div>
+        </div>
+      </div>
+    </footer>
+    <!-- Example Javascript -->
+    <script type="text/javascript" src="./scripts/binar.js"></script>
+    <script type="text/javascript" src="./scripts/app.example.js"></script>
+    <script type="text/javascript" src="./scripts/car.example.js"></script>
+    <script type="text/javascript" src="./scripts/main.example.js"></script>
+  </body>
+</html>
